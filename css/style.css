@@ -1,0 +1,13 @@
+.nav-wrapper {
+    max-width: 992px;
+    margin: auto;
+}
+.disabled-hover:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.row {
+    margin-top: 25px;
+}
+.nav-wrapper {
+    padding: 0 18px;
+}

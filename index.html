@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Tetris</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#"><i class="material-icons left">palette</i>Customize</a></li>
+            <li><a data-beloworigin="true" class="dropdown-trigger" href="#" data-target="dropdown1"
+                   data-beloworigin="true">Code<i class="material-icons left">code</i></a></li>
+        </ul>
+    </div>
+</nav>
+<ul id="dropdown1" class="dropdown-content red-text">
+    <li><a href="#">JavaScript</a></li>
+    <li class="divider"></li>
+    <li><a href="#">HTML</a></li>
+    <li class="divider"></li>
+    <li><a href="#">CSS</a></li>
+</ul>
+<ul class="sidenav" id="mobile-links">
+    <li><a href="#"><i class="material-icons left">palette</i>Customize</a></li>
+    <li><a class="disabled-hover" href="#"><i class="material-icons left">code</i>Code</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li class="divider"></li>
+    <li><a href="#">HTML</a></li>
+    <li class="divider"></li>
+    <li><a href="#">CSS</a></li>
+    <li class="divider"></li>
+</ul>
+<div id="main">
+    <div class="container">
+        <div class="center-align row">
+            <canvas id="tetris" width="240" height="400"></canvas>
+            <script src="tetris.js"></script>
+        </div>
+    </div>
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
