@@ -11,3 +11,14 @@
 .nav-wrapper {
     padding: 0 18px;
 }
+#game-border {
+    height: 550px;
+    width: 600px;
+}
+#tetris {
+    margin-top: 25px;
+}
+#score-box {
+    height: 100px;
+    width: 200px;
+}

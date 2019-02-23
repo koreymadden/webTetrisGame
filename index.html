@@ -19,7 +19,7 @@
         </a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#"><i class="material-icons left">palette</i>Customize</a></li>
-            <li><a data-beloworigin="true" class="dropdown-trigger" href="#" data-target="dropdown1"
+            <li><a class="dropdown-trigger" href="#" data-target="dropdown1"
                    data-beloworigin="true">Code<i class="material-icons left">code</i></a></li>
         </ul>
     </div>
@@ -44,8 +44,9 @@
 <div id="main">
     <div class="container">
         <div class="center-align row">
-            <canvas id="tetris" width="240" height="400"></canvas>
-            <script src="tetris.js"></script>
+            <div id="game-border" class="grey darken-2 center-align row">
+                <canvas id="tetris" width="240" height="400"></canvas>
+            </div>
         </div>
     </div>
 </div>
@@ -60,10 +61,10 @@
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Link 4</a></li>
                 </ul>
             </div>
         </div>
@@ -71,10 +72,11 @@
     <div class="footer-copyright">
         <div class="container">
             © 2019 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="#">More Links</a>
         </div>
     </div>
 </footer>
+<script src="tetris.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="js/main.js"></script>
 </body>
